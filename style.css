@@ -29,7 +29,8 @@
 
 .js-elemento {
   margin-bottom: 16px;
-  width: 400px;
+  max-width: 400px;
+  width: 80%;
   height: 600px;
 }
 
