@@ -1,0 +1,51 @@
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.a{
+  background-color: gray;
+}
+
+.b {
+  background-color: blue;
+}
+
+.c {
+  background-color: red;
+}
+
+.d {
+  background-color: yellow;
+}
+
+.e {
+  background-color: brown;
+}
+
+.js-elemento {
+  margin-bottom: 16px;
+  width: 400px;
+  height: 600px;
+}
+
+.js-elemento.l {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: .3s;
+}
+
+.js-elemento.r {
+  opacity: 0;
+  transform: translate3d(30px, 0, 0);
+  transition: .3s;
+}
+
+.js-elemento.ativa-scroll {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
